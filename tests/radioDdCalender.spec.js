@@ -15,5 +15,4 @@ test("Handling radioButtonsDropDownCalender", async ({ page }) => {
     expect(startDate).toBeVisible();
     expect(startDate).toHaveText("Fri, May 23");
     expect(await startDate.textContent()).toBe("Fri, May 23");
-
 });
